@@ -1,0 +1,150 @@
+.App {
+  /* text-align: center;
+   */
+  height: 100vh;
+  width: 100vw;
+
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #daf3fa;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-app {
+  background-color: rgb(251, 175, 109);
+}
+
+/* --------login page ------ */
+
+.login_page {
+  background: url("https://w0.peakpx.com/wallpaper/441/853/HD-wallpaper-blue-bokeh-bubbles-chapes-cirlces-blue-bubbles-bokeh-blue-background-abstract.jpg"
+    );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.login_main {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login_right {
+  /* background: url('https://loveincorporated.blob.core.windows.net/contentimages/gallery/e66eddfd-1ae7-4dab-8fb1-a9e3ed5e4577-pamukke-pools-lede.jpg'); */
+  background: url('../public/icons/pngegg.png');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #818B99;
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+
+.userList {
+  /* height: 300px; */
+  overflow-y: scroll;
+}
+
+.userList::-webkit-scrollbar {
+  width: 10px;
+  height: 2px;
+
+  background-color: rgb(255, 255, 255);
+  /* or add it to the track */
+}
+
+.userLi {
+  border-bottom: 1px solid #c0c4c9;
+}
+
+.userLi:hover {
+  background-color: rgb(185, 249, 255);
+  cursor: pointer;
+}
+
+.h-82 {
+  height: 82%;
+}
+
+.h-20 {
+  height: 18%;
+}
+
+.h-9 {
+  height: 9%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.h-91 {
+  height: 91%;
+}
+
+input {
+  outline: none;
+
+}
+
+/* ---------signup page ---------- */
+.edit-icon {
+  right: 3px;
+  padding: 0;
+  font-size: 20px;
+}
+.edit-icon:hover{
+  font-size: 22px;
+  font-weight:700 ;
+  color: rgb(27, 106, 254);
+}
+
+/* ------------------------------ */
