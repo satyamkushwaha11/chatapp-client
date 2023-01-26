@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import ifToken from '../helper/token'
 
-const Layout = () => {
+const Layout = (props) => {
+  useEffect(() => {
+    if (!ifToken()) {
+      navigate('/login')
+    }
+  })
   return (
-    <div>Layout</div>
+    <>
+      {props.children}
+    </>
   )
 }
 

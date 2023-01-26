@@ -148,3 +148,8 @@ input {
 }
 
 /* ------------------------------ */
+
+.message-card{
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 0 30px 30px 30px ;
+}
